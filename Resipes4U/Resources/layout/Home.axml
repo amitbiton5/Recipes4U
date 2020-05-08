@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:orientation="vertical"
+	android:gravity="center"
+	android:background="C:\Users\user\Desktop\עמית הנדסת תוכנה\Resipes4U\Resipes4U\drawable\1.jpg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resipes4U"
+            android:textSize="40sp"
+		    android:textColor="#ffffff"
+            android:gravity="center"
+		android:layout_marginTop="@dimen/fastscroll_margin"
+	/>
+	<Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sweet"
+            android:text="קינוחים ואפייה"
+	/>
+	<Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/food"
+            android:text="בישול וארוחות" 
+	/>
+	<Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/vegetarian"
+            android:text="אוכל צמחוני" 
+	/>
+	<Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/vegan"
+            android:text="אוכל טבעוני" 
+	/>
+</LinearLayout>
